@@ -11,3 +11,5 @@ plugins:
   - jekyll-seo-tag
   - jekyll-avatar
   - jekyll-include-cache
+github: [metadata] 
+encoding: UTF-8 
