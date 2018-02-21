@@ -1,8 +1,8 @@
 <!DOCTYPE html>
   <html>
     <head>
-      <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="nsardo.github.io" />
-      <title>nsardo Home Page</title>
+      {% feed_meta %}
+      <title>{{ page.title }}</title>
       <!-- link to main stylesheet -->
       <link rel="stylesheet" type="text/css" href="/css/main.css"/>
     </head>
@@ -17,12 +17,7 @@
       </nav>
       <div class="container">
       
-      <div class="blurb">
-  <h1>Hi, I'm Nick</h1>
-  <p>I'm a polyglot Consulting Software Engineer. <a href="/consulting">Find out about how I work...</a></p>
-</div>
-<!-- /.blurb -->
-
+      {{ content }}
       
       </div><!-- /.container -->
       <footer>
